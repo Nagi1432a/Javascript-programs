@@ -1,0 +1,43 @@
+body{
+    display : flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgb(123, 145, 192);
+
+}
+#m{
+    font-size: 50px;
+    color:black;
+
+}
+#c{
+    display : flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px;
+    border:5px solid;
+    border-radius: 50px;
+    background-color: white;
+}
+#d{
+    font-size: 100px;
+    transition: background-color 0.5 sec;
+}
+#e{
+    background-color: rgb(189, 146, 230);
+}
+#e:hover{
+    background-color: blueviolet;
+}
+#f{
+    background-color: rgb(90, 135, 156);
+}
+#f:hover{
+    background-color: rgb(31, 97, 154);
+}
+#g{
+    background-color: rgb(79, 168, 128);
+}
+#g:hover{
+    background-color: rgb(40, 152, 152);
+}

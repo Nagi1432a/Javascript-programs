@@ -1,0 +1,42 @@
+button{
+    width:100px;
+    height: 100px;
+    border-radius: 50px;
+    border: none;
+    background-color: rgba(94, 84, 84, 0.843);
+    color:white;
+    font-size:3rem;
+}
+#k{
+    display:grid;
+    grid-template-columns: repeat(4,1fr);
+    gap:10px;
+    padding:25px;
+}
+#c{
+    border-radius: 15px;
+    max-width:500px;
+    overflow: hidden;
+    background-color: rgba(74, 57, 57, 0.349);
+
+}
+#d{
+    width:100%;
+    padding:20px;
+    font-size: 5rem;
+    text-align: left;
+    border:none;
+    background-color: rgba(84, 80, 80, 0.194);
+    color:white;
+    
+}
+button:hover{
+    background-color: rgba(216, 196, 196, 0.055);
+}
+button:active{
+    background-color: rgba(54, 48, 48, 0.268);
+}
+
+.s{
+    background-color: orange;
+}
